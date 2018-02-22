@@ -31,5 +31,10 @@ $ npm start
 ```
 
 
+resources:
+- [prerequisites](https://guide.meteor.com/mobile.html#installing-prerequisites)
+- [tutorial to run on mobile](https://www.meteor.com/tutorials/blaze/running-on-mobile)
+- [Other tutorials](https://www.meteor.com/tutorials)
+
 
 
