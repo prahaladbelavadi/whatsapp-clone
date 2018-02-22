@@ -16,6 +16,7 @@ export default class RoutesConfig extends Config {
         views: {
           'tab-chats': {
             templateUrl: chatsTemplateUrl
+            controller: 'ChatsCtrl as chats'
           }
         }
       });
