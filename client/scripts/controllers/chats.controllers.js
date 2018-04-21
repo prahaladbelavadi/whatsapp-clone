@@ -1,14 +1,13 @@
 import Moment from 'moment';
 import { Controller } from 'angular-ecmascript/module-helpers';
- 
+
 export default class ChatsCtrl extends Controller {
 }
- 
-ChatsCtrl.$name = 'ChatsCtrl';
 
- constructor() {
+ChatsCtrl.$name = 'ChatsCtrl';
+ constructor(){
     super(...arguments);
- 
+
     this.data = [
       {
         _id: 0,
@@ -57,11 +56,11 @@ ChatsCtrl.$name = 'ChatsCtrl';
       }
     ];
   }
- 
+
   remove(chat) {
     this.data.splice(this.data.indexOf(chat), 1);
   }
 
 }
- 
+
 ChatsCtrl.$name = 'ChatsCtrl';
